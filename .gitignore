@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,python
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos,metals
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,macos,metals
 
 ### macOS ###
 # General
@@ -31,6 +31,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### Metals ###
+.metals/
+.bloop/
+project/**/metals.sbt
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -176,8 +181,6 @@ dmypy.json
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/settings.json
 *.code-workspace
 
 ### VisualStudioCode Patch ###
@@ -185,7 +188,7 @@ dmypy.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,python
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos,metals
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
