@@ -16,7 +16,7 @@ Time complexity: O(n * sqrt(n))
 # def allPrimes(n):
 #     res = []
 #     for i in range(2, n + 1):  # n
-#         if isPrimeSuperEfficient(i):  # isPrime is O(sqrt(n))
+#         if isPrime(i):  # isPrime is O(sqrt(n))
 #             res.append(i)
 
 """
@@ -26,7 +26,8 @@ Sieve of Eratosthenes algorithm
     1. Mark all slots that are multiples of 2 as False.
     2. Mark all slots that are multiples of 3 as False.
     3. Mark all slots that are multiples of 5 as False.
-3. Pass through the array and the remaining "True" slot are prime.
+    ...
+3. Pass through the array and the remaining "True" slots are prime.
 
 Time complexity: O(n*log(log n))
 Explanation:
