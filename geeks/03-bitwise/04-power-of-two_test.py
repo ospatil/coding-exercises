@@ -27,7 +27,7 @@ Time complexity: Theta(1)
 """
 
 
-def isPowerOftwoKirnighan(n):
+def isPowerOfTwoKirnighan(n):
     # if n == 0, return False
     # n & (n - 1) will unset only set bit in power of two and result will be 0
     return n != 0 and (n & (n - 1)) == 0
@@ -39,5 +39,5 @@ def test_isPowerOfTwoNaive():
 
 
 def test_isPowerofTwoKirnighan():
-    assert isPowerOftwoKirnighan(64) is True
-    assert isPowerOftwoKirnighan(126) is False
+    assert isPowerOfTwoKirnighan(64) is True
+    assert isPowerOfTwoKirnighan(126) is False
